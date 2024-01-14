@@ -1,0 +1,79 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-color: #545454;
+    width:100%;
+  border-radius: 20px;
+}
+  
+  .comment-container {
+    
+    width: 98%;
+    padding: 10px;
+    background-color: #545454;
+    
+    word-break: break-all;
+    border-radius: 20px;
+    border: 2px solid #000000;
+  }
+  
+  .comment-flexbox {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+  }
+  
+  .comment-text {
+    margin-bottom: 10px;
+    margin: 12px 0;
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+  
+  .input-box {
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 75px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  .input-box-name{
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 25px;
+    width: 265px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+  .comment-button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    font-size: 1.05rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: none;
+  }
+  
+  .comment-button:hover {
+    background-color: #0056b3
+  }
+
+  .delete-button {
+    background-color: #fbf4e1;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 2px solid #f9efd2;
+    border-radius: 3px;
+    border: 1px solid #000000;
+  }
